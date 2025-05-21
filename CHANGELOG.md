@@ -15,7 +15,7 @@
 - Added a new constant button for all constants
 - Added prperties files
 - Removed PI button
-- Renamed e button to e^ button. This button longer changes with the 2nd button
+- Renamed e button to e^ button. This button no longer changes with the 2nd key
 
 ## Version 0.0.4.3 - Date: May 20, 2019
 - Changed the way buttons were defined with text, tooltips and actions
