@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="jbtnGrpBase">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[980, 520]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jtxtSecondary" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jtxtPrimary" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jpnlDisplay" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="jbtnBackspace" linkSize="1" alignment="2" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtn7" linkSize="1" alignment="2" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtn4" linkSize="1" alignment="2" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtn1" linkSize="1" alignment="2" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtn0" linkSize="1" alignment="2" min="-2" pref="47" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jbtn8" linkSize="1" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtn5" linkSize="1" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtn2" linkSize="1" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnDecimal" linkSize="1" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jbtn9" linkSize="1" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtn6" linkSize="1" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtn3" linkSize="1" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnNegate" linkSize="1" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jbtnClear" linkSize="1" min="-2" pref="47" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jbtnClearEntry" linkSize="1" min="-2" pref="47" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jrdioBtnHex" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jrdioBtnOct" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jrdioBtnDec" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jrdioBtnBin" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jbtnB" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnC" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnD" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnF" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnE" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnA" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="jbtnDivide" linkSize="1" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnAdd" linkSize="1" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnModulus" linkSize="1" pref="52" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jbtnSubtract" linkSize="1" alignment="1" min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="jbtnMultiply" linkSize="1" alignment="1" min="-2" pref="47" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jbtnEqual" linkSize="1" min="-2" pref="47" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jbtnMemRecall" linkSize="1" max="32767" attributes="0"/>
+                                  <Component id="jbtnMemSet" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                                  <Component id="jbtnMemPlus" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jbtnMemMinus" linkSize="1" pref="51" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jbtnConstDropDown" max="32767" attributes="0"/>
+                                  <Component id="jbtnMemClear" linkSize="1" pref="52" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jbtn2nd" min="-2" pref="56" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jbtnOpenBracket" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnInverse" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnCloseBracket" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnFactorial" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnInt" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="jbtnDMS" min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jbtnLog" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnExpTen" linkSize="1" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="jbtnXPowerY" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnXPower2" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnXPower3" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jbtnLn" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jbtnSin" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbtnCos" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbtnTan" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbtnNRootX" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbtnSquareRoot" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbtnCubeRoot" linkSize="1" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jbtnCsc" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbtnSec" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbtnCot" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbtnExpPowerX" linkSize="1" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="jbtnRoundCeiling" linkSize="1" alignment="0" pref="55" max="32767" attributes="0"/>
+                          <Component id="jbtnRoundFloor" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="270" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jbtnClearOutput" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="jtxtSecondary" linkSize="4" min="-2" pref="43" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jtxtPrimary" linkSize="4" min="-2" pref="43" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jrdioBtnHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jrdioBtnDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jpnlDisplay" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jbtnConstDropDown" min="-2" pref="47" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jbtnAdd" linkSize="2" min="-2" pref="47" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jbtnDivide" linkSize="2" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnMemSet" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jbtnMemClear" linkSize="2" min="-2" pref="47" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jbtnMemRecall" linkSize="2" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnSubtract" linkSize="2" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jbtnSin" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnCsc" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                              <Component id="jrdioBtnOct" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jrdioBtnBin" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jbtnBackspace" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnClear" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnClearEntry" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnCos" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnSec" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jbtn7" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtn8" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtn9" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnTan" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="jbtnCot" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jbtnLn" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jbtnLog" linkSize="2" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jbtnExpTen" linkSize="2" min="-2" pref="47" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jbtn2nd" min="-2" pref="47" max="-2" attributes="0"/>
+                                              <Component id="jbtnDMS" alignment="1" min="-2" pref="47" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jbtnInt" min="-2" pref="47" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jbtnInverse" linkSize="2" min="-2" pref="47" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jbtnOpenBracket" linkSize="2" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtn4" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtn5" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtn6" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnNRootX" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnExpPowerX" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnXPowerY" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jbtn1" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtn2" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtn3" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnSquareRoot" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnRoundFloor" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnXPower2" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnCloseBracket" linkSize="2" min="-2" pref="47" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jbtnXPower3" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtn0" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnDecimal" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnNegate" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnCubeRoot" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnRoundCeiling" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnFactorial" linkSize="2" min="-2" pref="47" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jbtnF" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnModulus" linkSize="2" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jbtnE" min="-2" pref="47" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jbtnD" min="-2" pref="47" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jbtnC" min="-2" pref="47" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jbtnB" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnMemPlus" linkSize="2" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnMultiply" linkSize="2" alignment="1" min="-2" pref="47" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jbtnA" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnEqual" linkSize="2" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="jbtnMemMinus" linkSize="2" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="jbtnClearOutput" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="416" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="jtxtSecondary">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Font(&quot;Arial&quot;, Font.BOLD, 18)" type="code"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtPrimary">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Font(&quot;Arial&quot;, Font.BOLD, 18)" type="code"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnBackspace">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnBackspace, miscBundle.getString(CalcConstants.BSP), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnClear">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnClear, miscBundle.getString(CalcConstants.CXX), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnClearEntry">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnClearEntry, miscBundle.getString(CalcConstants.CEX), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn0">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn0, numberBundle.getString(CalcConstants.DG0), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn1, numberBundle.getString(CalcConstants.DG1), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn2, numberBundle.getString(CalcConstants.DG2), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn3, numberBundle.getString(CalcConstants.DG3), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn4, numberBundle.getString(CalcConstants.DG4), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn5, numberBundle.getString(CalcConstants.DG5), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn6, numberBundle.getString(CalcConstants.DG6), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn7">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn7, numberBundle.getString(CalcConstants.DG7), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn8">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn8, numberBundle.getString(CalcConstants.DG8), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn9">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn9, numberBundle.getString(CalcConstants.DG9), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnA">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnA, numberBundle.getString(CalcConstants.DGA), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnB">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnB, numberBundle.getString(CalcConstants.DGB), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnC">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnC, numberBundle.getString(CalcConstants.DGC), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnD">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnD, numberBundle.getString(CalcConstants.DGD), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnE">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnE, numberBundle.getString(CalcConstants.DGE), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnF">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[54, 32]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnF, numberBundle.getString(CalcConstants.DGF), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnDecimal">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnDecimal, numberBundle.getString(CalcConstants.DEC), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnNegate">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnNegate, operatorBundle.getString(CalcConstants.NEG), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnAdd">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnAdd, operatorBundle.getString(CalcConstants.ADD), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnModulus">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnModulus, operatorBundle.getString(CalcConstants.MOD), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnInverse">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnInverse, functionBundle.getString(CalcConstants.REC), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnSubtract">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnSubtract, operatorBundle.getString(CalcConstants.SUB), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnMemClear">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnMemClear, miscBundle.getString(CalcConstants.MCX), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnOpenBracket">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnOpenBracket, operatorBundle.getString(CalcConstants.BR1), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnDivide">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnDivide, operatorBundle.getString(CalcConstants.DIV), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnMemRecall">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnMemRecall, miscBundle.getString(CalcConstants.MRX), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnCloseBracket">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnCloseBracket, operatorBundle.getString(CalcConstants.BR2), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnMultiply">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnMultiply, operatorBundle.getString(CalcConstants.MUL), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnMemPlus">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnMemPlus, miscBundle.getString(CalcConstants.MPX), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnFactorial">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnFactorial, functionBundle.getString(CalcConstants.FCT), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnEqual">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnEqual, operatorBundle.getString(CalcConstants.EQU), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnMemMinus">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnMemMinus, miscBundle.getString(CalcConstants.MMX), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnLog">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnLog, functionBundle.getString(CalcConstants.LOG), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnSin">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnSin, functionBundle.getString(CalcConstants.SIN), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnCsc">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnCsc, functionBundle.getString(CalcConstants.CSC), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnCos">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnCos, functionBundle.getString(CalcConstants.COS), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnSec">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnSec, functionBundle.getString(CalcConstants.SEC), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnTan">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnTan, functionBundle.getString(CalcConstants.TAN), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnCot">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnCot, functionBundle.getString(CalcConstants.COT), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnExpTen">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnExpTen, functionBundle.getString(CalcConstants.PWT), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnXPowerY">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnXPowerY, functionBundle.getString(CalcConstants.POW), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnNRootX">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnNRootX, functionBundle.getString(CalcConstants.NRT), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnExpPowerX">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnExpPowerX, functionBundle.getString(CalcConstants.ELX), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnXPower2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnXPower2, functionBundle.getString(CalcConstants.SQR), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnSquareRoot">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnSquareRoot, functionBundle.getString(CalcConstants.SRT), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnRoundFloor">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnRoundFloor, functionBundle.getString(CalcConstants.FLR), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnXPower3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnXPower3, functionBundle.getString(CalcConstants.CUB), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnCubeRoot">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnCubeRoot, functionBundle.getString(CalcConstants.CRT), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnRoundCeiling">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnRoundCeiling, functionBundle.getString(CalcConstants.CLG), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnLn">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnLn, functionBundle.getString(CalcConstants.NLG), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnMemSet">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnMemSet, miscBundle.getString(CalcConstants.MSX), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnInt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnInt, functionBundle.getString(CalcConstants.INT), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnDMS">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnDMS, functionBundle.getString(CalcConstants.DMS), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnConstDropDown">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnConstDropDownActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtnConstDropDown, miscBundle.getString(MiscConstants.CON), MiscConstants.PIPE_DELIMITER);&#xa;//loadSystemProperties();&#xa;// For the jbtnConstDropDown button&#xa;createConstDropDownMenu();&#xa;jbtnConstDropDown.addMouseListener(new java.awt.event.MouseAdapter() {&#xa;    public void mousePressed(java.awt.event.MouseEvent evt) {&#xa;        popupMenu.show(evt.getComponent(), evt.getComponent().getSize().width/2, evt.getComponent().getSize().height/2); //30, 25&#xa;    }&#xa;});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn2nd">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtn2ndjbtnKeyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jbtn2nd, miscBundle.getString(CalcConstants.SND), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnClearOutput">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CLEAR OUTPUT"/>
+        <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;Clear Output&quot;" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnClearOutputActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jpnlDisplay">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl2nd" min="-2" pref="21" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jlblMem" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="25" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbl2nd" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlblMem" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="78" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlbl2nd">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jlbl2nd, miscBundle.getString(MiscConstants.WEN), MiscConstants.PIPE_DELIMITER);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlblMem">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jlblMem, miscBundle.getString(MiscConstants.MME), MiscConstants.PIPE_DELIMITER);"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JRadioButton" name="jrdioBtnHex">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="jbtnGrpBase"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRdioBtnActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jrdioBtnHex, miscBundle.getString(CalcConstants.HEX), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrdioBtnDec">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="jbtnGrpBase"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRdioBtnActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jrdioBtnDec, miscBundle.getString(CalcConstants.DEC), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrdioBtnOct">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="jbtnGrpBase"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRdioBtnActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jrdioBtnOct, miscBundle.getString(CalcConstants.OCT), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrdioBtnBin">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="jbtnGrpBase"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRdioBtnActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="setObjectFromProp(jrdioBtnBin, miscBundle.getString(CalcConstants.BIN), MiscConstants.PIPE_DELIMITER);"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jtxtAreaOutput">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new Font(&quot;Arial&quot;, Font.BOLD, 14)" type="code"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

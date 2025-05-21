@@ -1,0 +1,13 @@
+#Netbeans
+# ignoring specific files
+.DS_Store
+/nbproject/project.properties
+/nbproject/private
+nbactions.xml
+nb-configuration.xml
+calcapp
+calcappl.sh
+# ignoring specific directories
+/target/
+/logs/
+/documents/
