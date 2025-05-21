@@ -1,10 +1,10 @@
 # noakcalculator
 noakcalculator project
 
-This Java program provides a high-precision scientific calculator.
+This Java program provides a high-precision scientific calculator. This uses Edsger Dijkstra's Shunting-Yard Algorithm.
 
 
-## Which operations does the calculator peform?
+## Which operations does the calculator perform?
 
 -   **Operators**:
       - addition
@@ -44,7 +44,7 @@ This Java program provides a high-precision scientific calculator.
       - impedence of vacuum
       - permeability of vacuum
       - elementary charge
-      - euler's numnber
+      - euler's number
 
 
 ## Build project
